@@ -1,0 +1,14 @@
+.parent-div {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  text-align:center;
+}
+
+.child-div {
+  margin: 5px;
+  width: 95%;
+  background-color: #C1FFEA;
+  border: 2px solid #2f7cad;
+  padding: 5px;
+}

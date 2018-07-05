@@ -1,0 +1,15 @@
+<div align="center">
+  <div>
+    Send Message to Server
+    <div>
+      <textarea rows="4" cols="50" #message></textarea>
+    </div>
+    <button (click)="sendMessage(message.value)">Send Message</button>
+  </div>
+  <div class="parent-div" *ngIf="messages.length > 0">
+    <div class="child-div" *ngFor="let message of messages; index as i">
+      <b>{{i + 1}}.</b>{{message.value}}
+    </div>
+  </div>
+</div>
+
